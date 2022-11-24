@@ -1,0 +1,21 @@
+{
+  "name": "karov/phpunit",
+  "authors" : [
+       {
+          "name": "Emanoil"
+      }
+  ],
+  "require-dev": {
+      "phpunit/phpunit": "9.5"
+  },
+  "autoload": {
+      "psr-4": {
+           "TDD\\": "src/"
+      }
+  },
+  "autoload-dev" : {
+      "psr-4": {
+          "TDD\\Test\\": "tests/"
+      }
+  }
+}
